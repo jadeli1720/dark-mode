@@ -2,7 +2,7 @@ import { useState } from "react";
 
 //Uncomment so that you can see what is going on in console.
 
-export default function useLocalStorage = (key, initialValue) => {
+export const useLocalStorage =(key, initialValue) => {
     const [storedValue, setStoredValue] = useState(() => {
         // console.log(`useLocalStorage:useState`);
 
